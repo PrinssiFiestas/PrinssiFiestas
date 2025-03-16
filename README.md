@@ -10,7 +10,7 @@ Some notable projects:
 - [Shaders!](https://www.shadertoy.com/profile/LorenzoFiestas)
 <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/> 
 
-Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` implemented in raw x86-64 Linux machine code:
+Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` implemented by hand in raw x86-64 Linux machine code:
 ```c
 __attribute__((section(".text")))
 static const uint8_t factorial_code[] = {
@@ -30,7 +30,9 @@ static const uint8_t factorial_code[] = {
 uint64_t(*const factorial)(uint64_t) = (uint64_t(*)(uint64_t))factorial_code;
 ```
 >[!NOTE]
->Writing machine code by hand is stupid. Just use an assembler or C 🙃. (Which is not as much fun though!)<br/><br/>
+>You are better off just using an assembler. 🙃<br/><br/>
+
+I'm avaliable for work! 🔨 Feel free to contact me via [email](mailto:lorenzo.fiestas@lorenzofiestas.dev).
 
 <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/redblue.jpg"/> 
 <sup> Ray tracing! <sup/>
