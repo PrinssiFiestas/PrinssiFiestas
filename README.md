@@ -2,14 +2,15 @@
 
 So welcome. Currently studying software engineering at [Hive Helsinki](https://www.hive.fi/en/), but on my free time, you probably find me coding (usually in C) or building something out of electronics.
 
-Some of my notable projects:
+Some notable projects:
 
 - [libGPC](https://github.com/PrinssiFiestas/libGPC): General purpose C library with polymorphic allocators that can be encapsulated to dynamic data structures like UTF8 strings and stuff
 - [minirt](https://github.com/susikohmelo/minirt): Real-time interactive ray tracer
 - [DSP](https://github.com/PrinssiFiestas/DSP): Audio processing filters
 - [Shaders!](https://www.shadertoy.com/profile/LorenzoFiestas)
+<img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/> 
 
-Sometimes, I do weird things like writing x86_64 machine code by hand. It's a complete waste of time (just use an assembler or C!🙃), but that's fine. Just for fun and games, here's C callable `factorial()`: (Linux only)
+Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` implemented in raw x86-64 Linux machine code:
 ```c
 __attribute__((section(".text")))
 static const uint8_t factorial_code[] = {
@@ -28,18 +29,8 @@ static const uint8_t factorial_code[] = {
 };
 uint64_t(*const factorial)(uint64_t) = (uint64_t(*)(uint64_t))factorial_code;
 ```
+>[!NOTE]
+>Writing machine code by hand is stupid. Just use an assembler or C 🙃. (Which is not as much fun though!)<br/><br/>
 
-<!--
-**PrinssiFiestas/PrinssiFiestas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/redblue.jpg"/> 
+<sup> Ray tracing! <sup/>
