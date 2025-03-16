@@ -1,6 +1,6 @@
 <h3 align="center"><strong>Heyy, you found me!😃</strong></h3>
 
-So welcome. Currently studying software engineering at [Hive Helsinki](https://www.hive.fi/en/), but on my free time, you probably find me coding (usually in C) or building something out of electronics.
+So welcome! Currently studying software engineering at [Hive Helsinki](https://www.hive.fi/en/), but on my free time, you probably find me coding (usually in C) or building something out of electronics.
 
 Some notable projects:
 
@@ -10,7 +10,7 @@ Some notable projects:
 - [Shaders](https://www.shadertoy.com/profile/LorenzoFiestas): including my stupid profile picture and that thing below
 <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/> 
 
-Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` implemented by hand in raw x86-64 Linux machine code:
+Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` written by hand in raw x86-64 Linux machine code:
 ```c
 __attribute__((section(".text")))
 static const uint8_t factorial_code[] = {
