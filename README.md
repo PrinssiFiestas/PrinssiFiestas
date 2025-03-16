@@ -25,7 +25,7 @@ static const uint8_t factorial_code[] = {
     [ 0x14 ] = 0xC3,                                     // ret
     // .base_case:
     [ 0x15 ] = 0x48, 0xC7, 0xC0, 0x01, 0x00, 0x00, 0x00, // mov  rax, 1
-    [ 0x1C ] = 0xC3, 0x90, 0x90, 0x90,                   // ret
+    [ 0x1C ] = 0xC3                                      // ret
 };
 uint64_t(*const factorial)(uint64_t) = (uint64_t(*)(uint64_t))factorial_code;
 ```
