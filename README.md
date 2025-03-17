@@ -7,7 +7,7 @@ Some notable projects:
 - [libGPC](https://github.com/PrinssiFiestas/libGPC): General purpose C library with polymorphic allocators that can be encapsulated to dynamic data structures like UTF8 strings and stuff
 - [minirt](https://github.com/susikohmelo/minirt): Real-time interactive ray tracer
 - [DSP](https://github.com/PrinssiFiestas/DSP): Audio processing filters
-- [Shaders](https://www.shadertoy.com/profile/LorenzoFiestas): including my stupid profile picture and that thing below
+- [Shaders](https://www.shadertoy.com/user/LorenzoFiestas): including my stupid profile picture and that thing below
 <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/> 
 
 Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` written by hand in raw x86-64 Linux machine code:
