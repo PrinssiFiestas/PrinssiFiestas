@@ -32,7 +32,7 @@ uint64_t(*const factorial)(uint64_t) = (uint64_t(*)(uint64_t))factorial_code;
 >[!NOTE]
 >You are better off just using an assembler. 🙃<br/><br/>
 
-I'm avaliable for work! 🔨 Feel free to contact me via [email](mailto:lorenzo.fiestas@lorenzofiestas.dev).
+I'm avaliable for work! 🔨 Feel free to contact me via [email](mailto:lorenzo.fiestas@lorenzofiestas.dev) or [LinkedIn](https://fi.linkedin.com/in/lauri-lorenzo-fiestas-74719432b).
 
 <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/redblue.jpg"/> 
 <sup> Ray tracing! <sup/>
