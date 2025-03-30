@@ -3,12 +3,12 @@
 So welcome! Currently studying software engineering at [Hive Helsinki](https://www.hive.fi/en/), but on my free time, you probably find me coding (usually in C) or building something out of electronics.
 
 Some notable projects:
-
+<img align="right" width="450" height="450" src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/candy.gif">
 - [libGPC](https://github.com/PrinssiFiestas/libGPC): General purpose C library with polymorphic allocators that can be encapsulated to dynamic data structures like UTF8 strings and stuff
 - [minirt](https://github.com/susikohmelo/minirt): Real-time interactive ray tracer
 - [DSP](https://github.com/PrinssiFiestas/DSP): Audio processing filters
-- [Shaders](https://www.shadertoy.com/user/LorenzoFiestas): including my stupid profile picture and that thing below
-<img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/> 
+- [Shaders](https://www.shadertoy.com/user/LorenzoFiestas): including my the gifs you see here
+<img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/>
 
 Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` written by hand in raw x86-64 Linux machine code:
 ```c
