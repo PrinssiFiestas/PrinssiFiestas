@@ -1,14 +1,19 @@
-<h3 align="center"><strong>Heyy, you found me!😃</strong></h3>
+<h3 align="center">
+    <img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/Julia.gif"/><br>
+    <strong>Heyy, you found me!😃</strong>
+</h3>
 
-So welcome! Currently studying software engineering at [Hive Helsinki](https://www.hive.fi/en/), but on my free time, you probably find me coding (usually in C) or building something out of electronics.
+So welcome! I'm a creative programmer with passion for arts and music. When I'm not drumming, you probably find me coding (usually in C) or building something out of electronics.
 
 Some notable projects:
-<img align="right" width="450" height="450" src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/candy.gif">
 - [libGPC](https://github.com/PrinssiFiestas/libGPC): General purpose C library with polymorphic allocators that can be encapsulated to dynamic data structures like UTF8 strings and stuff
 - [minirt](https://github.com/susikohmelo/minirt): Real-time interactive ray tracer
 - [DSP](https://github.com/PrinssiFiestas/DSP): Audio processing filters
 - [Shaders](https://www.shadertoy.com/user/LorenzoFiestas): including the gifs you see here
-<img src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/lines.gif"/>
+- [ft_transcendence](https://github.com/PrinssiFiestas/ft_transcendence): Ray marched 3D Pong game, also implemented as a shader
+
+<img align="left" src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/pong.gif"/>
+<img width="250" src="https://github.com/PrinssiFiestas/PrinssiFiestas/blob/main/candy.gif"/>
 
 Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` written by hand in raw x86-64 Linux machine code:
 ```c
