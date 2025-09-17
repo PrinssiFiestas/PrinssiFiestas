@@ -17,6 +17,7 @@ Some notable projects:
 
 Sometimes, I get sucked into rabbit holes and end up doing weird things for fun. For example, here's C callable `factorial()` written by hand in raw x86-64 Linux machine code:
 ```c
+#include <stdint.h>
 __attribute__((section(".text")))
 static const uint8_t factorial_code[] = {
     // factorial:
@@ -24,7 +25,7 @@ static const uint8_t factorial_code[] = {
     [ 0x04 ] = 0x74, 0x0F,                               // je .base_case
     [ 0x06 ] = 0x57,                                     // push rdi
     [ 0x07 ] = 0x48, 0xFF, 0xCF,                         // dec  rdi
-    [ 0x0A ] = 0xE8, 0xF1, 0xFF, 0xFF, 0xFF,             // call fact
+    [ 0x0A ] = 0xE8, 0xF1, 0xFF, 0xFF, 0xFF,             // call factorial
     [ 0x0F ] = 0x5F,                                     // pop  rdi
     [ 0x10 ] = 0x48, 0x0F, 0xAF, 0xC7,                   // imul rax, rdi
     [ 0x14 ] = 0xC3,                                     // ret
