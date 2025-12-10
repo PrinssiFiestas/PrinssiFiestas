@@ -7,6 +7,7 @@ So welcome! I'm a creative programmer with passion for arts and music. When I'm 
 
 Some notable projects:
 - [libGPC](https://github.com/PrinssiFiestas/libGPC): General purpose C library with polymorphic allocators that can be encapsulated to dynamic data structures like UTF8 strings and stuff
+- [MicroELFLinker](https://github.com/PrinssiFiestas/MicroELFLinker): Static ELF linker for x86_64 Linux
 - [minirt](https://github.com/susikohmelo/minirt): Real-time interactive ray tracer
 - [DSP](https://github.com/PrinssiFiestas/DSP): Audio processing filters
 - [Shaders](https://www.shadertoy.com/user/LorenzoFiestas): including the gifs you see here
